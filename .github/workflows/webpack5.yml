@@ -1,3 +1,5 @@
+# action 的名称
+name: doc
 on: # 触发条件
   # 每当 push 到 gh-pages 分支时触发部署
   push:
