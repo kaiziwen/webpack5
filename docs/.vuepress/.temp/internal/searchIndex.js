@@ -7,274 +7,6 @@ export const searchIndex = [
     "extraFields": []
   },
   {
-    "title": "依赖环境",
-    "headers": [],
-    "path": "/intro/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "学习资料",
-    "headers": [],
-    "path": "/intro/asset.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "适合群体",
-    "headers": [],
-    "path": "/intro/group.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "我能学到什么",
-    "headers": [],
-    "path": "/intro/learn.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "前置知识",
-    "headers": [],
-    "path": "/intro/pre.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "介绍",
-    "headers": [],
-    "path": "/origin/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Loader 原理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "loader 概念",
-        "slug": "loader-概念",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "loader 执行顺序",
-        "slug": "loader-执行顺序",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "开发一个 loader",
-        "slug": "开发一个-loader",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 最简单的 loader",
-            "slug": "_1-最简单的-loader",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. loader 接受的参数",
-            "slug": "_2-loader-接受的参数",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "loader 分类",
-        "slug": "loader-分类",
-        "children": [
-          {
-            "level": 3,
-            "title": "1. 同步 loader",
-            "slug": "_1-同步-loader",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "2. 异步 loader",
-            "slug": "_2-异步-loader",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "3. Raw Loader",
-            "slug": "_3-raw-loader",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "4. Pitching Loader",
-            "slug": "_4-pitching-loader",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "loader API",
-        "slug": "loader-api",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "手写 clean-log-loader",
-        "slug": "手写-clean-log-loader",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "手写 banner-loader",
-        "slug": "手写-banner-loader",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "手写 babel-loader",
-        "slug": "手写-babel-loader",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "手写 file-loader",
-        "slug": "手写-file-loader",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "手写 style-loader",
-        "slug": "手写-style-loader",
-        "children": []
-      }
-    ],
-    "path": "/origin/loader.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Plugin 原理",
-    "headers": [
-      {
-        "level": 2,
-        "title": "Plugin 的作用",
-        "slug": "plugin-的作用",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Plugin 工作原理",
-        "slug": "plugin-工作原理",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "Webpack 内部的钩子",
-        "slug": "webpack-内部的钩子",
-        "children": [
-          {
-            "level": 3,
-            "title": "什么是钩子",
-            "slug": "什么是钩子",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Tapable",
-            "slug": "tapable",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "Plugin 构建对象",
-        "slug": "plugin-构建对象",
-        "children": [
-          {
-            "level": 3,
-            "title": "Compiler",
-            "slug": "compiler",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "Compilation",
-            "slug": "compilation",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "生命周期简图",
-            "slug": "生命周期简图",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "开发一个插件",
-        "slug": "开发一个插件",
-        "children": [
-          {
-            "level": 3,
-            "title": "最简单的插件",
-            "slug": "最简单的插件",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "注册 hook",
-            "slug": "注册-hook",
-            "children": []
-          },
-          {
-            "level": 3,
-            "title": "启动调试",
-            "slug": "启动调试",
-            "children": []
-          }
-        ]
-      },
-      {
-        "level": 2,
-        "title": "BannerWebpackPlugin",
-        "slug": "bannerwebpackplugin",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "CleanWebpackPlugin",
-        "slug": "cleanwebpackplugin",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "AnalyzeWebpackPlugin",
-        "slug": "analyzewebpackplugin",
-        "children": []
-      },
-      {
-        "level": 2,
-        "title": "InlineChunkWebpackPlugin",
-        "slug": "inlinechunkwebpackplugin",
-        "children": []
-      }
-    ],
-    "path": "/origin/plugin.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "总结",
-    "headers": [],
-    "path": "/origin/summary.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
     "title": "前言",
     "headers": [
       {
@@ -965,6 +697,274 @@ export const searchIndex = [
     "extraFields": []
   },
   {
+    "title": "依赖环境",
+    "headers": [],
+    "path": "/intro/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "学习资料",
+    "headers": [],
+    "path": "/intro/asset.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "适合群体",
+    "headers": [],
+    "path": "/intro/group.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "我能学到什么",
+    "headers": [],
+    "path": "/intro/learn.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "前置知识",
+    "headers": [],
+    "path": "/intro/pre.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "介绍",
+    "headers": [],
+    "path": "/origin/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Loader 原理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "loader 概念",
+        "slug": "loader-概念",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "loader 执行顺序",
+        "slug": "loader-执行顺序",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "开发一个 loader",
+        "slug": "开发一个-loader",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 最简单的 loader",
+            "slug": "_1-最简单的-loader",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. loader 接受的参数",
+            "slug": "_2-loader-接受的参数",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "loader 分类",
+        "slug": "loader-分类",
+        "children": [
+          {
+            "level": 3,
+            "title": "1. 同步 loader",
+            "slug": "_1-同步-loader",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "2. 异步 loader",
+            "slug": "_2-异步-loader",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "3. Raw Loader",
+            "slug": "_3-raw-loader",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "4. Pitching Loader",
+            "slug": "_4-pitching-loader",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "loader API",
+        "slug": "loader-api",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写 clean-log-loader",
+        "slug": "手写-clean-log-loader",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写 banner-loader",
+        "slug": "手写-banner-loader",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写 babel-loader",
+        "slug": "手写-babel-loader",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写 file-loader",
+        "slug": "手写-file-loader",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "手写 style-loader",
+        "slug": "手写-style-loader",
+        "children": []
+      }
+    ],
+    "path": "/origin/loader.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "Plugin 原理",
+    "headers": [
+      {
+        "level": 2,
+        "title": "Plugin 的作用",
+        "slug": "plugin-的作用",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Plugin 工作原理",
+        "slug": "plugin-工作原理",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Webpack 内部的钩子",
+        "slug": "webpack-内部的钩子",
+        "children": [
+          {
+            "level": 3,
+            "title": "什么是钩子",
+            "slug": "什么是钩子",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Tapable",
+            "slug": "tapable",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "Plugin 构建对象",
+        "slug": "plugin-构建对象",
+        "children": [
+          {
+            "level": 3,
+            "title": "Compiler",
+            "slug": "compiler",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "Compilation",
+            "slug": "compilation",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "生命周期简图",
+            "slug": "生命周期简图",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "开发一个插件",
+        "slug": "开发一个插件",
+        "children": [
+          {
+            "level": 3,
+            "title": "最简单的插件",
+            "slug": "最简单的插件",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "注册 hook",
+            "slug": "注册-hook",
+            "children": []
+          },
+          {
+            "level": 3,
+            "title": "启动调试",
+            "slug": "启动调试",
+            "children": []
+          }
+        ]
+      },
+      {
+        "level": 2,
+        "title": "BannerWebpackPlugin",
+        "slug": "bannerwebpackplugin",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "CleanWebpackPlugin",
+        "slug": "cleanwebpackplugin",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "AnalyzeWebpackPlugin",
+        "slug": "analyzewebpackplugin",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "InlineChunkWebpackPlugin",
+        "slug": "inlinechunkwebpackplugin",
+        "children": []
+      }
+    ],
+    "path": "/origin/plugin.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "总结",
+    "headers": [],
+    "path": "/origin/summary.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "介绍",
     "headers": [],
     "path": "/project/",
@@ -1458,3 +1458,16 @@ export const searchIndex = [
     "extraFields": []
   }
 ]
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updateSearchIndex) {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ searchIndex }) => {
+    __VUE_HMR_RUNTIME__.updateSearchIndex(searchIndex)
+  })
+}
