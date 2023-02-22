@@ -48,7 +48,7 @@ jobs:
         uses: crazy-max/ghaction-github-pages@v2
         # 环境变量
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
         with:
           # 部署到 gh-pages 分支
           target_branch: gh-pages
