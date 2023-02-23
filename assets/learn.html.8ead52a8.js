@@ -1,0 +1,1 @@
+const e={key:"v-7d0ce4de",path:"/intro/learn.html",title:"\u6211\u80FD\u5B66\u5230\u4EC0\u4E48",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[],git:{contributors:[{name:"\u9648\u51EF\u6587",email:"chenkaiwen@linklogis.com",commits:1}]},filePathRelative:"intro/learn.md"};export{e as data};
