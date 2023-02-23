@@ -12,7 +12,7 @@ module.exports = {
   themeConfig: {
     // logo: "/imgs/favicon.ico",
     lastUpdated: false,
-    contributors: false,
+    contributors: true,
     contributorsText: '贡献者',
     navbar: [
       {
