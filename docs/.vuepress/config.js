@@ -11,7 +11,7 @@ module.exports = {
   theme: "@vuepress/theme-default",
   themeConfig: {
     // logo: "/imgs/favicon.ico",
-    lastUpdated: true,
+    lastUpdated: false,
     contributors: false,
     contributorsText: '贡献者',
     navbar: [
