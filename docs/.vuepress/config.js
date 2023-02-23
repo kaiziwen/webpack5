@@ -11,7 +11,9 @@ module.exports = {
   theme: "@vuepress/theme-default",
   themeConfig: {
     // logo: "/imgs/favicon.ico",
-    lastUpdated: false,
+    lastUpdated: true,
+    contributors: false,
+    contributorsText: '贡献者',
     navbar: [
       {
         text: "课程介绍",
