@@ -7,26 +7,7 @@ export const data = {
   "excerpt": "",
   "headers": [],
   "git": {
-    "contributors": [
-      {
-        "name": "陈凯文",
-        "email": "chenkaiwen@linklogis.com",
-        "commits": 1
-      }
-    ]
+    "updatedTime": 1677058941000
   },
   "filePathRelative": "project/summary.md"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
 }

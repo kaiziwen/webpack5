@@ -1,5 +1,7 @@
 export const themeData = {
-  "lastUpdated": false,
+  "lastUpdated": true,
+  "contributors": false,
+  "contributorsText": "贡献者",
   "navbar": [
     {
       "text": "课程介绍",
@@ -109,8 +111,6 @@ export const themeData = {
   "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdatedText": "Last Updated",
-  "contributors": true,
-  "contributorsText": "Contributors",
   "notFound": [
     "There's nothing here.",
     "How did we get here?",
@@ -121,17 +121,4 @@ export const themeData = {
   "openInNewWindow": "open in new window",
   "toggleDarkMode": "toggle dark mode",
   "toggleSidebar": "toggle sidebar"
-}
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updateThemeData) {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ themeData }) => {
-    __VUE_HMR_RUNTIME__.updateThemeData(themeData)
-  })
 }
